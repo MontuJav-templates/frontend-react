@@ -3,7 +3,7 @@ import Navbar from "./Navbar"
 function App() {
   return (
     <>
-      {/* <Navbar /> */}
+      <Navbar />
       <h1>Home main screen</h1>
     </>
   );

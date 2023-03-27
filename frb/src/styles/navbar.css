@@ -1,0 +1,55 @@
+@import './colors';
+
+:root {
+    --primary-color: $primary;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.nav {
+    /* background-color: var(--primary-color); */
+    background-color: #0367A6;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 2rem;
+    padding: 0 1rem;
+}
+
+.site-title {
+    font-size: 2rem;
+}
+
+.nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.nav a {
+    color: inherit;
+    text-decoration: none;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0.25rem;
+}
+
+.nav li.active {
+    /* TODO: Secondary color */
+    background-color: #024873;
+}
+
+.nav li:hover {
+    /* TODO: Tertiary color */
+    background-color: #012840;
+}
